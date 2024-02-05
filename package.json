@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Jaelinny/jelly-express/issues"
   },
-  "homepage": "https://github.com/Jaelinny/jelly-express#readme"
+  "homepage": "https://github.com/Jaelinny/jelly-express#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
