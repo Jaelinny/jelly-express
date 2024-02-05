@@ -1,15 +1,18 @@
-//Hello Express => $ node app.js
+//라우팅 - parameters
+//Route parameters
+
+//ex) GET /artist/1, GET/artists/1/company/entertainment
 
 const express = require('express')
-const app = express()
-const port = 3000
+const router = express.Router();
 
-app.get('/', (req, res) => {
-	let myJson = { "Hello": "World"}
-	res.json(myJson)
-	// res.send('Hello World!')
-	})
+router.get('/artists/:id', function (req, res) {
+	console.log("id는 " + req.params.id + " 입니다")
+	res.send("id : " + req.params.id)
+	});
 
-app.listen(port, () => {
-	console.log(`Example app listening on port ${port}`)
-	})
+
+//여러개도 가능
+router.get('/artists/:id/company/:company', function (req, res) {
+	res.send("id: " + req.params.id + " 회사 : " + req.params.company)
+	});
