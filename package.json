@@ -1,0 +1,25 @@
+{
+  "name": "jelly-express",
+  "version": "0.1.0",
+  "description": "my js express server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaelinny/jelly-express.git"
+  },
+  "keywords": [
+    "js",
+    "jelly",
+    "server",
+    "express"
+  ],
+  "author": "jaelinny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jaelinny/jelly-express/issues"
+  },
+  "homepage": "https://github.com/Jaelinny/jelly-express#readme"
+}
